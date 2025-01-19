@@ -12,3 +12,8 @@ body
     padding: 0;
     height: 100vh;
 }
+pre
+{
+    font-size:2vw;
+    margin-left:8vw;
+}
