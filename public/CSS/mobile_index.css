@@ -65,3 +65,9 @@ body
     padding: 0;
     height: 100vh;
 }
+#display-content {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    position: relative;
+    visibility: hidden; 
+}
