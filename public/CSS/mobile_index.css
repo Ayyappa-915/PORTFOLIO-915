@@ -27,7 +27,7 @@ body
 #nav
 {
     display: flex;
-    gap: 5vw;
+    gap: 10px;
     padding: 3vw;
     margin-left:1vw;
     margin-right:2vw;
@@ -49,8 +49,8 @@ button:hover
 }
 img
 {
-    width: auto;
-    height:auto;
+    width: 200px;
+    height: 200px;;
 }
 #display-content
 {
@@ -69,6 +69,5 @@ body
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
     position: relative;
-    visibility: hidden; /* Ensure it’s not shown until fully loaded */
+    visibility: hidden; 
 }
-
