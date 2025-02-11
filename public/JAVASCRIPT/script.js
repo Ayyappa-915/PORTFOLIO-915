@@ -14,7 +14,7 @@ const loadPage = (url) => {
             setTimeout(() => {
                 display_content.style.visibility = "visible";
                 display_content.style.opacity = "1";
-            }, 200); // Adjust if needed
+            }, 500); // Adjust if needed
         });
     })
     .catch(error => {
