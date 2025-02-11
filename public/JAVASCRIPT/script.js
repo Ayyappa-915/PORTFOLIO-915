@@ -16,7 +16,7 @@ const portfolio_about = () => {
         display_content.innerHTML = html;
         setTimeout(() => {
             display_content.style.opacity = "1"; // Show after a slight delay
-        }, 25); 
+        }, 100); 
     })
     .catch(error => {
         console.error('Error:', error);
@@ -31,7 +31,7 @@ const home = () => {
         display_content.innerHTML=html;
         setTimeout(() => {
             display_content.style.opacity = "1"; // Show after a slight delay
-        }, 25); 
+        }, 100); 
     })
     .catch(error => {
         console.error('Error:',error)
@@ -46,7 +46,7 @@ const skills = () => {
         display_content.innerHTML=html;
         setTimeout(() => {
             display_content.style.opacity = "1"; // Show after a slight delay
-        }, 25); 
+        }, 100); 
     })
     .catch(error => {
         console.error('Error:',error)
@@ -60,7 +60,7 @@ const projects = () => {
         display_content.innerHTML=html;
         setTimeout(() => {
             display_content.style.opacity = "1"; // Show after a slight delay
-        }, 25); 
+        }, 100); 
     })
     .catch(error => {
         console.error('Error:',error)
@@ -74,7 +74,7 @@ const contact = () => {
         display_content.innerHTML=html;
         setTimeout(() => {
             display_content.style.opacity = "1"; // Show after a slight delay
-        }, 25); 
+        }, 100); 
     })
     .catch(error => {
         console.error('Error:',error)
