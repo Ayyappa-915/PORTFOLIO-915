@@ -81,3 +81,8 @@ body
     background-color: rgb(84, 84, 231);
     font-size: 15px;
 }
+#display-content {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    position: relative; /* Ensure correct positioning */
+}
