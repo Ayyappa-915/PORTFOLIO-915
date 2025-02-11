@@ -29,7 +29,15 @@ document.getElementById("load-skills").addEventListener("click", () => loadPage(
 document.getElementById("load-projects").addEventListener("click", () => loadPage('/HTML/projects.html'));
 document.getElementById("load-contact").addEventListener("click", () => loadPage('/HTML/contact.html'));
 
-// Load Home Page on Startup
+
+
 document.addEventListener("DOMContentLoaded", () => {
-    setTimeout(() => { loadPage('/HTML/home.html'); }, 500); // Delay ensures styles are fully loaded
+    // Ensure CSS is fully loaded before displaying content
+    const checkCSS = setInterval(() => {
+        const computedStyle = window.getComputedStyle(document.body);
+        if (computedStyle.visibility !== "hidden") {
+            clearInterval(checkCSS);
+            loadPage('/HTML/home.html'); // Load homepage after CSS is applied
+        }
+    }, 50); // Check every 50ms
 });
