@@ -1,0 +1,56 @@
+body {
+    
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; 
+    
+}
+#projects {
+    overflow-y: auto; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Removes vertical and horizontal gaps */
+    justify-content: center;
+}
+#b {
+    color: white;
+    background-color: rgb(84, 84, 231);
+    font-size: 15px;
+}
+p
+{
+    text-align: center;
+}
+span
+{
+    color: darkcyan;
+}
+ #p5, #p1, #p2, #p3 {
+    border-style: double;
+    border-radius: 1vw;
+    border-width: 1vw;
+    text-align: center;
+    width: 20vw;
+    margin: 5px;
+    padding-bottom: 1vw;
+    height: 120px;
+    font-size: 15px;
+    margin-top: 0;
+}
+#b:hover {
+    background-color: rgb(10, 10, 237);
+}
+.button
+{
+    height: max-content;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+#b {
+    color: white;
+    background-color: rgb(84, 84, 231);
+    font-size: 15px;
+}

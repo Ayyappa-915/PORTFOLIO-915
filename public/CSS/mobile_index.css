@@ -1,0 +1,67 @@
+.main-page
+{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+#left-side-photo , img
+{
+    height:40vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 1vw;
+    overflow: hidden;
+}
+#right-side-nav-bar
+{
+    height:60vh;
+    margin-left: 5vw;
+}
+body
+{
+    background-color: black;
+}
+#nav
+{
+    display: flex;
+    gap: 5vw;
+    padding: 3vw;
+    margin-left:1vw;
+    margin-right:2vw;
+}
+button
+{
+    font-size: auto;
+    font-style:oblique;
+    border-radius: 1vw;
+    background-color:black;
+    border-style: double;
+    color: white;
+    height:max-content;
+    padding:1vw
+}
+button:hover
+{
+    background-color: red;
+}
+img
+{
+    width: auto;
+    height:auto;
+}
+#display-content
+{
+    color: white;
+    font-size: auto;
+    padding: 0.5vw;
+    margin:3vw;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}

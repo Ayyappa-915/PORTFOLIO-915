@@ -1,0 +1,37 @@
+b{
+    color: aqua;
+}
+span
+{
+    color:greenyellow;
+    font-style: italic;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+#b:hover {
+    background-color: rgb(10, 10, 237);
+}
+.button
+{
+    height: max-content;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+#b {
+    color: white;
+    background-color: rgb(84, 84, 231);
+    font-size: 15px;
+}
+.home-page
+{
+    margin-top: 50px;
+}
+h2
+{
+    color: rgba(255, 0, 0, 0.971);
+}

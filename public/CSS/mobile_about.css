@@ -1,0 +1,34 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+b
+{
+    color: aqua;
+}
+span
+{
+    color: greenyellow;
+}
+#b:hover {
+    background-color: rgb(10, 10, 237);
+}
+.button
+{
+    height: max-content;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+#b {
+    color: white;
+    background-color: rgb(84, 84, 231);
+    font-size: 15px;
+}
+.about-section
+{
+    margin-top: 50px;
+    font-size: 3vw;
+}
