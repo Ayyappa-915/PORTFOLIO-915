@@ -67,11 +67,8 @@ body
 }
 #display-content {
     opacity: 0;
-    visibility: hidden; /* Ensure it remains hidden until fully loaded */
-    position: absolute; /* Prevent unintended shifting */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     transition: opacity 0.5s ease-in-out;
+    position: relative;
+    visibility: hidden; /* Ensure it’s not shown until fully loaded */
 }
 
