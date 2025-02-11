@@ -14,6 +14,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 80vw; 
+    margin-left: 10px;
 }
 #b {
     color: white;
