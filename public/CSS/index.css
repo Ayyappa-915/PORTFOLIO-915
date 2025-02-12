@@ -45,6 +45,7 @@ button
 button:hover
 {
     background-color: rgba(255, 0, 0, 0.971);
+    color:black;
 }
 img
 {
