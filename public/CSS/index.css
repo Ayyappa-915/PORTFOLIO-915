@@ -44,7 +44,7 @@ button
 }
 button:hover
 {
-    background-color: rgba(29, 178, 236, 0.568);
+    background-color: red;
     color:black;
 }
 button:focus
