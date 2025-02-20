@@ -44,12 +44,12 @@ button
 }
 button:hover
 {
-    background-color: red;
+    background-color: aqua;
     color:black;
 }
 button:focus
 {
-    background-color: rgba(29, 178, 236, 0.568);
+    background-color: aqua;
     color:black;
 }
 img
