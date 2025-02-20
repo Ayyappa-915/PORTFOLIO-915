@@ -40,7 +40,7 @@ button
     border-style: double;
     color: white;
     height: 4vw;
-
+    cursor:pointer;
 }
 button:hover
 {
